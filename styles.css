@@ -1,0 +1,226 @@
+/*~~~~~~~~  CSS used in more than one spot ~~~~~~~ */
+* {
+  font-family: sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+/*~~~~ Main Container for each segment ~~~~~~*/
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 85%;
+  height: auto;
+  margin:20px auto;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px rgba(190, 189, 189, 0.5);
+  box
+
+}
+
+
+/* tidy up the link decoration */
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+/* rounded edges for images */
+.image {
+  border-radius: 8px;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ Heading css ~~~~~~~~~~~~~~~~~~~~*/
+
+/* top left heading section */
+.flex-item-head {
+  width: 75%;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 1.5em;
+}
+
+/* ~logo container */
+.flex-item-logo{
+  width: 50%;
+  height: auto;
+  margin:10px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*  logo image */
+.topLogo {
+  width: auto;
+  height: 95%;
+  max-height: 175px;
+  border-radius: 20px;
+  margin: 5px 5px;
+
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~ oldSite analyst Css ~~~~~~~~~~~~~~*/
+
+/* Old site overview container */
+.flex-container-oldSite {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: column;
+  justify-content: column;
+  width: 95%;
+  height: 400px;
+  background-color: lightgrey;
+  margin:20px auto;
+  border-radius: 5px;
+}
+
+/* old site overview left side text box container*/
+.flex-item-oldSite-left {
+  background-color: #fff;
+  width: 45%;
+  height: 380px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3px 3px;
+}
+
+/* old site overview right background image container*/
+.flex-item-oldSite-right {
+  background-image: url("images/Original.png");
+  background-size: contain;
+  width: 45%;
+  height: 380px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 3px 3px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~ features required css ~~~~~~~~~~~~~~~~~~*/
+
+/* Features list image left container*/
+.flex-item-features-left{
+  background-color: #fff;
+  width: 95%;
+  height: auto;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+
+.flex-item-features-right {
+  background-color: #fff;
+  width: 95%;
+  height: auto;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~ hand sketch  css~~~~~~~~~~~~~~~~ */
+
+/* sketch list image left container*/
+.flex-item-sketch-left{
+  background-color: #fff;
+  width: 95%;
+  height: auto;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+/*Sketch right side */
+.flex-item-sketch-right {
+  background-color: #fff;
+  width: auto;
+  height: auto;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~ Pictures from competitors~~~~~~~~~~~~*/
+
+/* pauls warehouse left container*/
+.flex-item-pics-left{
+  background-color: #fff;
+  width: 45%;
+  height: 200px;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+
+/*nike image right side */
+.flex-item-pics-right {
+  background-color: #fff;
+  width: 45%;
+  height: 200px;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~ Wireframe~~~~~~~~~~~~*/
+
+/* Wireframe left container*/
+.flex-item-wireframe-left{
+  background-color: #fff;
+  width: 55%;
+  height: auto;
+  margin: 10px 10px;border-radius: 5px;
+}
+
+
+/*Wireframe right text side */
+.flex-item-wireframe-right {
+  background-color: #fff;
+  width: 35%;
+  height: auto;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+/*mobile  description*/
+.mobile {
+  background-color: #fff;
+  width: 98%;
+  height: auto;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~ Moodboard ~~~~~~~~~~~~~~*/
+
+/* moodboard left and right */
+.flex-item-moodboard-side {
+  background-color: #fff;
+  width: 15%;
+  height: 380px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3px 3px;
+}
+
+/* moodboard center  */
+.flex-item-moodboard {
+  background-color: #fff;
+  width: auto;
+  height: 450px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3px 3px;
+}
